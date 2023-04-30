@@ -1,0 +1,78 @@
+body{
+    background-color: burlywood;
+}
+/* header*/
+.head{
+    background-color: red;
+    height: 200px;
+    width: 100%;
+}
+.brodes{
+    border: solid 3px black;
+}
+/* foot*/
+.foot{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+}
+/*dias */
+.hd{
+    color: blue;
+    font-size: 25px;
+}
+.lun{
+    color: yellow;
+    font-size: 25px;
+}
+.mar{
+    color: green;
+    font-size: 25px;
+}
+.mir{
+    color: pink;
+    font-size: 25px;
+}
+.jue{
+    color: violet;
+    font-size: 25px;
+}
+.vie{
+    color: blueviolet;
+    font-size: 25px;
+}
+.sab{
+    color: red;
+    font-size: 25px;
+}
+.dom{
+    color: brown;
+    font-size: 25px;
+}
+/*dias */
+/*horarios*/
+.az{
+    color: blue;
+}
+.am{
+    color: yellow;
+}
+.gr{
+    color: green;
+}
+.pi{
+    color: pink;
+}
+.vi{
+    color: violet;
+}
+.bv{
+    color: blueviolet;
+}
+.re{
+    color: red;
+}
+.bw{
+    color: brown;
+}
+/*horarios*/

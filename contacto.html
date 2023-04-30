@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="brodes">
+        <section>
+            <h2>Registro</h2>
+            Nombre : <input type="text" name="nombre" maxlength="10">
+            Apellido : <input type="text" name="apellido" maxlength="15">
+            <br>
+            <br>
+            Fecha de nacimiento:
+            <input type="month" name="nac">
+            <br>
+            <br>
+            Correo electronico : <input type="text" name="correo">
+            <br>
+            <br>
+            Password : <input type="password" name="password">
+            <br>
+            <br>
+            Genero <br>
+            Masculino: <input type="radio" name="genero">
+            Femenino: <input type="radio" name="genero">
+            Otro: <input type="radio" name="genero">
+            <br>
+            <br>
+            seleccione su pais:
+            <select name="pais" >
+                <option value="arg">argentina</option>
+                <option value="br">Brasil</option>
+                <option value="ch">Chile</option>
+                <option value="mex">Mexico</option>
+                <option value="ur">Uruguay</option>
+            </select>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h3>Terminos y condiciones</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, quibusdam praesentium expedita asperiores
+                ullam facilis mollitia exercitationem debitis quod, corrupti dignissimos rem sapiente accusantium quas
+                eaque, nesciunt excepturi. Itaque, cumque!
+            </p>
+            <input type="checkbox" name="terminos">He leido y acepto los terminos y condiciones.
+        </section>
+        <br>
+        <br>
+        <section>
+            <h3>dejar un comentario:</h3>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        </section>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
